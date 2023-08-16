@@ -1,0 +1,117 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: white;
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        flex: 0.4;
+        overflow: hidden;
+
+        .imgContainer{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 20px;
+            width: 450px;
+           
+
+            @include mobile{
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+            img{
+                height: 400px;
+                width: 600px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-left: 70px;
+                margin-top: 50px;
+
+
+                @include mobile{
+                    height: 300px;
+                    width: 290px;
+                    margin-top: 18px;
+                    margin-right: 60px;
+                }
+            }
+        }
+    }
+
+    .right{
+        flex: 0.6;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+            }
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                color: rgb(38, 2, 169);
+
+                @include mobile{
+                    font-size: 25px;
+                }
+            }
+            h2{
+                font-size: 35px;
+                @include mobile{
+                    font-size: 25px;
+                }
+            }
+            h3{
+                font-size: 20px;
+                margin-right: 100px;
+                margin-bottom: 18px;
+
+                @include mobile{
+                    font-size: 15px;
+                    text-align: center;
+                    margin:0;
+                    margin-bottom: 20px;
+                }
+
+                span{
+                    font-size: inherit;
+                    color: rgb(38, 2, 169);
+                }
+
+                span1{
+                    color: rgb(38, 2, 169);
+                }
+                
+            }
+            a{
+                img{
+                height: 90px;
+                width: 500px;
+                cursor: pointer;
+                overflow: hidden;
+
+                @include mobile{
+                    height: 50px;
+                    width: 320px;
+                }
+                }
+            }
+        }
+    }
+}
