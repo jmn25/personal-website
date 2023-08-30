@@ -1,7 +1,7 @@
 {
   "homepage": "http://jmn25.github.io/personal-website",
   
-  "name": "personal-portfolio",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
