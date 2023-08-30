@@ -43,13 +43,13 @@ export default function Works() {
       <b>Skating Rink Guard: </b> <br />
       <span>&#x2022; Monitored and regulated recreational skating activities</span>  
       </p>,
-      image: <img src="https://ceetoronto.org/wp-content/uploads/2020/06/city-of-toronto-logo-2.png" alt="" />,
+      image: <img src="https://seeklogo.com/images/C/city-of-toronto-logo-8A5595A393-seeklogo.com.png" alt="" />,
     },
   ];
 
   const handleClick = (way) => {
     way === "left" 
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 1)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
   
