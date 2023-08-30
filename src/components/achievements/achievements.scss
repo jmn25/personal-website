@@ -48,6 +48,7 @@
             @include mobile{
                 height: 180px;
                 margin: 10px 0;
+                width: 300px;
             }
 
             
@@ -64,14 +65,14 @@
 
                 img{
                     &.user{
-                        height: 100px;
-                        width: 100px;
+                        height: 80px;
+                        width: 80px;
                         border-radius: 50%;
                         object-fit: cover;
 
                         @include mobile{
-                            width: 60px;
-                            height: 60px;
+                            width: 40px;
+                            height: 40px;
                         }
                     }
                 }
@@ -82,6 +83,8 @@
                 border-radius: 10px;
                 overflow: hidden;
                 background-color: rgb(218, 208, 255);
+                font-size: 10px;
+                height: 55px;
 
                 @include mobile{
                     font-size: 10px;
@@ -100,17 +103,20 @@
                     font-size: 18px;
                     text-align: center;
                     overflow: hidden;
+                    font-size: 16px;
 
                     @include mobile{
-                        font-size: 12px;
+                        font-size: 11px;
                     }
                 }
                 h4{
                     color: rgb(186, 186, 186);
                     overflow: hidden;
+                    font-size: 14px;
 
                     @include mobile{
-                        font-size: 11px;
+                        font-size: 10px;
+                        margin-bottom: 5px;
                     }
                 }
             }

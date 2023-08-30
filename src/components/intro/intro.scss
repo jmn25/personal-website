@@ -10,7 +10,7 @@
     }
 
     .left{
-        flex: 0.4;
+        flex: 0.5;
         overflow: hidden;
 
         .imgContainer{
@@ -85,7 +85,9 @@
                 @include mobile{
                     font-size: 15px;
                     text-align: center;
-                    margin:0;
+                    margin: 0;
+                    margin-left:10px;
+                    margin-right: 20px;
                     margin-bottom: 20px;
                 }
 

@@ -16,7 +16,7 @@ export default function Contact() {
             LinkedIn
         </a>
              </p3>
-             <p>This website was programmed and designed by me using React</p>
+             <p>This website was programmed and designed using React</p>
         </div>
     </div>
   )

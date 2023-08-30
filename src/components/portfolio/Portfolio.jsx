@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
-  skills,
-  interests,
   languages,
+  other,
 } from "../../data";
 
 export default function Portfolio() {
@@ -13,33 +12,26 @@ export default function Portfolio() {
 
   const list = [
     {
-      id: "skills",
-      title: "Skills",
-    },
-    {
       id: "languages",
-      title: "Programming Languages/Frameworks",
+      title: <b>Programming-Related Skills</b>,
     },
     {
-      id: "interests",
-      title: "Interests",
+      id: "other",
+      title: <b>Other Skills</b>,
     },
   ];
 
   useEffect(() => {
 
     switch(selected){
-      case "skills":
-        setData(skills);
+      case "languages":
+        setData(languages);
         break;
-        case "languages":
-          setData(languages);
+        case "other":
+          setData(other);
           break;
-        case "interests":
-        setData(interests);
-        break;
         default:
-          setData(skills);
+          setData(languages);
     }
 
   },[selected])

@@ -25,12 +25,13 @@
 
         @include mobile{
             justify-content: center;
+            margin-left: 30px;
         }
         
     }
 
     .container{
-        width: 70%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
