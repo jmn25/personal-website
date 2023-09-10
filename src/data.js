@@ -29,6 +29,11 @@ export const other = [
         title: "Lucidchart",
         img: "https://avatars.slack-edge.com/2022-07-26/3865608556737_8f4ae4a98b36ab6912b3_512.png",
     },
+    {
+        id: 7,
+        title: "Microsoft (Excel, Outlook, Word)",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png",
+    },
     
 ];
 
